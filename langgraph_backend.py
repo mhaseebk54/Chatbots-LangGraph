@@ -5,6 +5,7 @@ from langchain_ollama import ChatOllama
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph.message import add_messages
 
+
 class ChatState(TypedDict):
 
     messages: Annotated[list[BaseMessage], add_messages]

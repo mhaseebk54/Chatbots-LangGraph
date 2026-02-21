@@ -1,5 +1,7 @@
 langchain
 langchain-core
 langchain-ollama
+duckduckgo-search
 streamlit
 langgraph-checkpoint-sqlite
+langchain-community

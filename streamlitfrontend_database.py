@@ -3,6 +3,10 @@ from langgraph_databasebackend import chatbot, retriverallthread
 from langchain_core.messages import HumanMessage
 import uuid
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # **************************************** utility functions *************************
 
 def generate_thread_id():
